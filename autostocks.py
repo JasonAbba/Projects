@@ -22,7 +22,7 @@ submit_btn.click()
 time.sleep(20) # sleeps for 20 seconds
 
 email = driver.find_element_by_xpath("//*[@id='identifierId']")
-email.send_keys("jasonabba1234@gmail.com")
+email.send_keys("xxxxxxxxxx@gmail.com") # email
 time.sleep(20)
 email_next_btn1 = driver.find_element_by_xpath("/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/span")
 email_next_btn1.click()
@@ -30,7 +30,7 @@ email_next_btn1.click()
 time.sleep(20) # sleeps for 10 seconds
 
 email_pass = driver.find_element_by_xpath("/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input")
-email_pass.send_keys("iamtheflash10")
+email_pass.send_keys("xxxxxxxxx") # password
 time.sleep(20)
 email_next_btn2 = driver.find_element_by_xpath("/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/span")
 email_next_btn2.click()
