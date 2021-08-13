@@ -12,10 +12,10 @@ driver.get('https://sjc.linways.com/student/')
 # req = requests.get(url, headers = headers)
 
 username = driver.find_element_by_xpath("/html/body/form/div[1]/div[2]/div[2]/div/input[1]")
-username.send_keys('18BCA41002')
+username.send_keys('your reg number')
 time.sleep(7)
 password = driver.find_element_by_xpath("/html/body/form/div[1]/div[2]/div[2]/div/input[2]")
-password.send_keys("18BCA41002")
+password.send_keys("your password")
 submit_btn = driver.find_element_by_xpath("/html/body/form/div[1]/div[2]/div[2]/div/a/button/span[2]")
 submit_btn.click()
 
